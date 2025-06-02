@@ -1,0 +1,58 @@
+.manera {
+    padding: 2em 0em;
+    background-color: #ffffff99;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 5% 0em;
+    transition: transform 0.5s ease;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    background-image: url(../img/churrasquito.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+
+}
+
+.grid-manera {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2.5em;
+    margin-top: 2em;
+    padding: 0em 0em;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.manera img{
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 0.5em;
+    transition: transform 0.3 ease;
+    background-color: transparent;
+    background-image: none;
+}
+
+.manera h3, 
+.manera p { 
+    transition: transform 0.5s ease;
+    background-color: transparent;
+    background-image: none;
+}
+
+
+.manera img:hover,
+.manera img:hover + h3,
+.manera img:hover + h3 + p{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.grid-manera .manera { 
+    background: rgba(255, 255, 255, 0.471);  /* Blanco semi-transparente */
+}

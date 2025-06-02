@@ -1,0 +1,43 @@
+.hero {
+    background: linear-gradient(rgba(234, 6, 6, 0.5), rgba(208, 116, 116, 0.5)), url('../Imagenes_de_pagina/pagar/jugar.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 2em auto;
+    border-bottom: 5px solid #e91e63;
+    width: 100%;
+    height: auto;
+    
+}
+.hero img {
+    width: 100%;
+    height: auto;
+
+}
+.hero h2 {
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+    color: black;
+}
+
+.hero h3{
+    font-size: 2rem;
+    color: blueviolet;
+}
+.antihero {
+    background: linear-gradient(rgb(232, 8, 0), rgba(208, 116, 116, 0.5)), url('../Imagenes_de_pagina/pagar/jugar.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border-bottom: 5px solid #e91e63;
+    overflow: hidden;
+}
+.antihero p{
+    font-size: 1;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    color: black;
+}
+/* pensaba en darle mejores colores para combinar, pero soy muy malo en eso y lo arranqué tarde y le di prioridad a completarlo  */

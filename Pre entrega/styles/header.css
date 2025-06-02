@@ -1,0 +1,62 @@
+@media (max-width:768px) {
+    .header{
+        padding:0.5em 2em;
+        /* Cambio de padding para cuando las pantallas son chiquitas */
+    }
+}
+.header {
+    background-color: #1ec1da97;
+    color: rgb(0, 0, 0);
+    padding: .5em auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;   
+    /* inicialmente lo dispuse de una manera y me resultaba más atractivo al revés entonces para no modificar todo, usé row reverse */
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0 10px 30px #1d2021;
+}
+
+.header img {
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.header h1 {
+    font-size: 1.5rem ;
+    text-align: end;
+    margin-bottom: center;
+    margin-left: auto;
+}
+
+.header nav ul {
+    list-style: inside;
+    display: flex;
+    gap: .75em;
+    margin: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: solid;
+    font-weight: bold;
+    padding: .2rem 0.25em;
+    border-radius: 10px;
+    transition: background 2s;
+}
+
+.header nav a:hover {
+    background-color: #4d137a;
+}
+.navbar {
+    display:flex;
+    align-items: justify;
+    justify-content: flex-start;
+} 
+

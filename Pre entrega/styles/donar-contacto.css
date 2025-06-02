@@ -1,0 +1,39 @@
+.donar-contacto {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 2em 1em;
+    background-color: #c96513;
+    width: 100%;
+    margin: 0;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+.donar-contacto img {
+    max-width: 120px;
+    height: auto;
+    align-self: flex-start;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.donar-contacto img:hover {
+    transform: scale(1.25);
+}
+
+@media (max-width: 1080px) {
+    .header nav ul {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .grid-experiencias {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+}
